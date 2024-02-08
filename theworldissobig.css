@@ -1,0 +1,81 @@
+/*the background color and text were changed here!*/
+body {font-family: Verdana, sans-serif; }
+h1 { background-color: #046492; 
+	opacity: 70%;
+     color: #e6e6fa; 
+	 line-height: 200%;
+	 font-family: "Times New Roman", serif;
+}
+h2 { background-color: #d5d5d5 
+     color: #191970; 
+	 font-family:  "Times New Roman", serif;
+	 text-align: center;  }
+nav { font-weight: bold;
+      word-spacing: 0.5em;
+      font-size: 1.25em; 
+	  /* width: 92%; */
+	  /* text-align: center */;
+	   color:rgb(29, 250, 0);
+	   float:right; 
+	   overflow:hidden;
+	   margin-right: 5%;
+	   font-family: "Times New Roman", serif;
+	 
+	 
+
+	  }
+nav a { text-decoration: none;}
+p { font-size: .90em;
+	text-indent: 3em; }
+ul { font-weight: bold; }
+footer { color: #333333;
+		 font-size: .75em;
+		 font-style: italic; 
+		 width: 92%;
+		 text-align:center;
+		 
+	
+	}
+.company { font-weight: bold;
+           font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.25em; }
+
+.bold_Blue { font-weight:bold;
+			color: #FFA500;
+}
+
+#custom_Header {
+             background-color: #6a0dad;
+			 font-size: 3em;
+			 color: #0096FF;
+			/* text-align: center; */
+			 width: 92%;
+				 } 
+			
+a:visited {color:darkcyan};
+
+
+#mapshape{
+	border-radius: 15px;
+	background: #73AD21;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+  }
+
+  #map { height: 50px; }
+
+  .map-container {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%; /* Create a circular shape */
+    overflow: hidden; /* Hide any map content outside the circle */
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow for a 3D effect */
+}
+
+/* Style the map div inside the circular container */
+#map {
+    width: 100%;
+    height: 100%;
+}
