@@ -1,7 +1,11 @@
       
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
    /*var  map = L.map('map').setView([38.889805, -77.009056], 13);
+=======
+   var  map = L.map('map').setView([38.889805, -77.009056], 13);
+>>>>>>> 7b64fb92e17064767844fbf5407736e51678ed3a
 =======
    var  map = L.map('map').setView([38.889805, -77.009056], 13);
 >>>>>>> 7b64fb92e17064767844fbf5407736e51678ed3a
@@ -15,6 +19,7 @@
 
    L.marker([38.889805, -77.009056]).addTo(map)
   .bindPopup('Washington D.C <br>')
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   .openPopup(); */
@@ -98,6 +103,9 @@ map.on("style.load", () =? {
          });
          
    //});
+=======
+  .openPopup();
+>>>>>>> 7b64fb92e17064767844fbf5407736e51678ed3a
 =======
   .openPopup();
 >>>>>>> 7b64fb92e17064767844fbf5407736e51678ed3a
