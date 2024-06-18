@@ -1,5 +1,9 @@
       
+<<<<<<< HEAD
    /*var  map = L.map('map').setView([38.889805, -77.009056], 13);
+=======
+   var  map = L.map('map').setView([38.889805, -77.009056], 13);
+>>>>>>> 7b64fb92e17064767844fbf5407736e51678ed3a
 
    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -7,6 +11,7 @@
 
    L.marker([38.889805, -77.009056]).addTo(map)
   .bindPopup('Washington D.C <br>')
+<<<<<<< HEAD
   .openPopup(); */
 
   /*mapboxgl.accessToken = '';
@@ -88,3 +93,6 @@ map.on("style.load", () =? {
          });
          
    //});
+=======
+  .openPopup();
+>>>>>>> 7b64fb92e17064767844fbf5407736e51678ed3a
